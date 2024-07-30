@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_blackjack_64.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_blackjack_64-user \
-    omni_blackjack_64-userdebug \
-    omni_blackjack_64-eng
+    twrp_blackjack_64-user \
+    twrp_blackjack_64-userdebug \
+    twrp_blackjack_64-eng
