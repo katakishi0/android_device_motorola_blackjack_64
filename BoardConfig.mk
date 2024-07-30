@@ -119,3 +119,10 @@ MTK_HARDWARE := true
 
 # Workaround for error copying vendor files to recovery ramdisk
 TARGET_COPY_OUT_VENDOR := vendor
+
+# Debug
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
+
+# PitchBlack Flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
