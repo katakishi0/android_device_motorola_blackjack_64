@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from blackjack_64 device
 $(call inherit-product, device/motorola/blackjack_64/device.mk)
 
 PRODUCT_DEVICE := blackjack_64
-PRODUCT_NAME := twrp_blackjack_64
+PRODUCT_NAME := omni_blackjack_64
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(8) power lite
 PRODUCT_MANUFACTURER := motorola
