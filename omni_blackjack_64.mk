@@ -1,7 +1,7 @@
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 # Copyright 2024
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 
 # Incluir configuração do board
 $(call inherit-product, device/motorola/blackjack_64/device.mk)
