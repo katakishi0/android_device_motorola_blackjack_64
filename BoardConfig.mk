@@ -17,7 +17,6 @@ AB_OTA_PARTITIONS += \
     vendor \
     product \
     system
-BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -119,3 +118,7 @@ MTK_HARDWARE := true
 
 # Workaround for error copying vendor files to recovery ramdisk
 TARGET_COPY_OUT_VENDOR := vendor
+TARGET_USES_MKE2FS := true
+TW_INCLUDE_RESETPROP := true
+TW_INCLUDE_REPLACE_BUSYBOX := true
+BOARD_USES_RECOVERY_AS_BOOT := true
